@@ -62,5 +62,7 @@ Die Tools mit der Endung \*dat.py geben an wie viele Dateien eingegeben werden s
 
 ![image](file_plotter/sample_plot/diagram_beton_r60.png)
 
+*Abbildung 1: Beispielplot mit data_plotter_x16y.py*
+
 Die Tools mit der Endung \*x<zahl>y.py geben an wie viele y Spalten für ein x in der zu verarbeitenden Datei enthalten sein sollen. Wenn man z.B. eine Datei mit 4 Spalten hat in denen eine als x und 3 als zugehörige y Werte eingetragen sind, so ist das Tools data_plotter_x3y.py dafür passend.
 

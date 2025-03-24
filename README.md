@@ -68,13 +68,11 @@ python abaqus_to_csv.py
 
 *Abbildung 3: Beispielplot mit data_plotter_x3y.py*
 
-In diesem Ordner sind Tools die es ermöglichen mit Matplotlib Datensätze zu plotten. Dabei ist es wichtig, dass die Überschriften der Datensätze in den ersten 2 Zeilen der Datei zu finden sind.
+In diesem Ordner sind Tools die es ermöglichen mit Matplotlib Datensätze zu plotten. Dabei ist es wichtig, dass die Überschriften der Datensätze in den ersten 2 Zeilen der Datei zu finden sind. Falls die Überschriften in ab der dritten Spalte sind gibt es einen Fehler und die Tools funktionieren nicht!
 
-Die Tools mit der Endung \*dat.py geben an wie viele Dateien eingegeben werden sollen. Dabei kann eine solche Datei maximal 2 Spalten x und y enthalten.
+Die Tools mit der Endung \*x<zahl>y.py geben an wie viele y Spalten für ein x in der zu verarbeitenden Datei enthalten sein sollen. Wenn man z.B. eine Datei mit 4 Spalten hat in denen eine als x und 3 als zugehörige y Werte eingetragen sind, so ist das Tools data_plotter_x3y.py dafür passend.
 
 ![image](images/diagram_beton_r60.png)
 
 *Abbildung 4: Beispielplot mit data_plotter_x16y.py*
-
-Die Tools mit der Endung \*x<zahl>y.py geben an wie viele y Spalten für ein x in der zu verarbeitenden Datei enthalten sein sollen. Wenn man z.B. eine Datei mit 4 Spalten hat in denen eine als x und 3 als zugehörige y Werte eingetragen sind, so ist das Tools data_plotter_x3y.py dafür passend.
 

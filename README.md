@@ -62,11 +62,11 @@ python abaqus_to_csv.py
 
 ![image](images/data_plotter_x3y.png)
 
-*Abbildung 2: Screenshot data_plotter_x3y.py
+*Abbildung 2: Screenshot data_plotter_x3y.py*
 
 ![image](images/brandkurven.png)
 
-*Abbildung 3: Beispielplot mit data_plotter_x3y.py
+*Abbildung 3: Beispielplot mit data_plotter_x3y.py*
 
 In diesem Ordner sind Tools die es ermöglichen mit Matplotlib Datensätze zu plotten. Dabei ist es wichtig, dass die Überschriften der Datensätze in den ersten 2 Zeilen der Datei zu finden sind.
 

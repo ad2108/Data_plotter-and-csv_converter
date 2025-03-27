@@ -60,6 +60,8 @@ python abaqus_to_csv.py
 
 ## File plotter
 
+### Dataplotter xy
+
 ![image](images/data_plotter_x3y.png)
 
 *Abbildung 2: Screenshot data_plotter_x3y.py*
@@ -76,6 +78,15 @@ Die Tools mit der Endung \*x\<zahl\>y.py geben an wie viele y Spalten für ein x
 
 *Abbildung 4: Beispielplot mit data_plotter_x16y.py*
 
+### Dataplotter dat
+
+![image](images/data_plotter_3dat.py)
+
+*Abbildung 5: Screenshot data_plotter_3dat.py
+
+![image](images/vergleich_3p.png)
+
+*Abbildung 6: Beispielplot mit data_plotter_3dat.py
 
 Die Tools mit der Endung \*\<zahl\>dat.py geben an wie viele Dateien mit je einer x und einer y Spalte verarbeitet werden. Wenn man z.B. 3 Dateien so ist das Tool data\_plotter\_3dat.py dafür passend.
 

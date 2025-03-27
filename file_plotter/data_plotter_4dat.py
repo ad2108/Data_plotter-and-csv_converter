@@ -26,6 +26,14 @@ print("Faktor für x:")
 faktorx = float(input())
 print("Faktor für y:")
 faktory = float(input())
+print("xmin:")
+xmin = float(input())
+print("xmax:")
+xmax = float(input())
+print("ymin:")
+ymin = float(input())
+print("ymax:")
+ymax = float(input())
 
 
 # read and presort
@@ -114,6 +122,7 @@ for element4 in unsorted4:
 
 #plot
 plt.figure(dpi=1200)
+plt.axis([xmin, xmax, ymin, ymax])
 plt.plot(x1, y, label=p1)
 plt.plot(x2, z, label=p2)
 plt.plot(x3, a, label=p3)

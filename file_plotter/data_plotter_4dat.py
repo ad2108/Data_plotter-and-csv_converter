@@ -42,7 +42,7 @@ ymax = float(input())
 data1 = open(name1 , "r")
 unsorted1 = []
 count = 1
-for line in data1:
+for line1 in data1:
     if count > 2:
         unsorted1.append(line1.replace("\n", " ").replace(";", " ").replace(",", " ").split(" "))
     count += 1
@@ -50,7 +50,7 @@ for line in data1:
 data2 = open(name2 , "r")
 unsorted2 = []
 count = 1
-for line in data2:
+for line2 in data2:
     if count > 2:
         unsorted2.append(line2.replace("\n", " ").replace(";", " ").replace(",", " ").split(" "))
     count += 1
@@ -58,7 +58,7 @@ for line in data2:
 data3 = open(name3 , "r")
 unsorted3 = []
 count = 1
-for line in data3:
+for line3 in data3:
     if count > 2:
         unsorted3.append(line3.replace("\n", " ").replace(";", " ").replace(",", " ").split(" "))
     count += 1
@@ -66,7 +66,7 @@ for line in data3:
 data4 = open(name4 , "r")
 unsorted4 = []
 count = 1
-for line in data4:
+for line4 in data4:
     if count > 2:
         unsorted4.append(line4.replace("\n", " ").replace(";", " ").replace(",", " ").split(" "))
     count += 1

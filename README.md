@@ -80,7 +80,7 @@ Die Tools mit der Endung \*x\<zahl\>y.py geben an wie viele y Spalten für ein x
 
 ### Dataplotter dat
 
-![image](images/data_plotter_3dat.py)
+![image](images/data_plotter_3dat.png)
 
 *Abbildung 5: Screenshot data_plotter_3dat.py
 

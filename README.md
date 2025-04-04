@@ -104,7 +104,7 @@ Die Tools mit der Endung \*x\<zahl\>y.py geben an wie viele y Spalten für ein x
 
 *Abbildung 5: Screenshot data_plotter_3dat.py*
 
-![image](images/vergleich_3p.png)
+![image](images/kennwerte_feinheit.png)
 
 *Abbildung 6: Beispielplot mit data_plotter_3dat.py*
 

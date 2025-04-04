@@ -98,10 +98,6 @@ In diesem Ordner sind Tools die es ermöglichen mit Matplotlib Datensätze zu pl
 
 Die Tools mit der Endung \*x\<zahl\>y.py geben an wie viele y Spalten für ein x in der zu verarbeitenden Datei enthalten sein sollen. Wenn man z.B. eine Datei mit 4 Spalten hat in denen eine als x und 3 als zugehörige y Werte eingetragen sind, so ist das Tool data\_plotter\_x3y.py dafür passend.
 
-![image](images/diagram_beton_r60.png)
-
-*Abbildung 4: Beispielplot mit data_plotter_x16y.py*
-
 ### Dataplotter dat
 
 ![image](images/data_plotter_3dat.png)

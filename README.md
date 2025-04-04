@@ -106,7 +106,7 @@ Die Tools mit der Endung \*x\<zahl\>y.py geben an wie viele y Spalten für ein x
 
 ![image](images/kennwerte_feinheit.png)
 
-*Abbildung 6: Beispielplot mit data_plotter_3dat.py*
+*Abbildung 6: Beispielplot mit data_plotter_5dat.py*
 
 Die Tools mit der Endung \*\<zahl\>dat.py geben an wie viele Dateien mit je einer x und einer y Spalte verarbeitet werden. Wenn man z.B. 3 Dateien so ist das Tool data\_plotter\_3dat.py dafür passend.
 

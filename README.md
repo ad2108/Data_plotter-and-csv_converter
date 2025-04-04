@@ -44,6 +44,30 @@ pacman -S mingw-w64-x86_64-python-matplotlib
 
 Natürlich kann auch unter Windows pip für die Installation von Matplotlib benutzt werden.
 
+## Pandas
+
+Pandas ist eine bekannte Python-Bibliothek die genutzt werden kann um Datensätze zu verarbeiten. Für die Tools ist es notwendig pandas installiert zu haben.
+
+Linux:
+
+```bash
+pip install pandas 
+```
+
+oder
+
+```bash
+sudo apt install python3-pandas
+```
+
+Msys2(Windows):
+
+```bash
+pacman -S mingw-w64-x86_64-python-pandas
+```
+
+Natürlich kann auch unter Windows pip für die Installation von Matplotlib benutzt werden.
+
 ## Csv converter
 
 ![image](images/csv_converter.png)
@@ -82,12 +106,18 @@ Die Tools mit der Endung \*x\<zahl\>y.py geben an wie viele y Spalten für ein x
 
 ![image](images/data_plotter_3dat.png)
 
-*Abbildung 5: Screenshot data_plotter_3dat.py
+*Abbildung 5: Screenshot data_plotter_3dat.py*
 
 ![image](images/vergleich_3p.png)
 
-*Abbildung 6: Beispielplot mit data_plotter_3dat.py
+*Abbildung 6: Beispielplot mit data_plotter_3dat.py*
 
 Die Tools mit der Endung \*\<zahl\>dat.py geben an wie viele Dateien mit je einer x und einer y Spalte verarbeitet werden. Wenn man z.B. 3 Dateien so ist das Tool data\_plotter\_3dat.py dafür passend.
 
+## Clipboard datafilter
+ 
+![image](images/datafilter.png)
 
+*Abbildung 7: Screenshot datafilter.py*
+
+In diesem Ordner ist ein Tool, welches es ermöglicht mit Pandas einen Datensatz aus dem Zwischenspeicher auszuwerten. Dafür muss der Datensatz in den Datenspeicher geladen werden, z.B. Ctrl-C oder Ctrl-X. Dabei wird der Anfangswert, Endwert und Schritt abgefragt. Mit diesem Werten wird ein Vergleihsdatensatz erstellt, der mit der ersten Spalt des Datensatzes im Zwischenspeicher verglichen wird. Die Werte, die innerhalt einer angegebenen Abweichung zum Datensatz ligen werden behalten und in den Zwischenspeicher geladen. Aus diesem können die Daten mit Ctrl-V eingefügt werden.

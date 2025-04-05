@@ -1,4 +1,14 @@
-#Datasorter
+'''
+Clipboard Datafilter
+Author: ad2108
+Version: 1.0
+Date: 2025-04-05
+License: MIT
+
+Description:
+    A simple script that reads data from the clipboard and finds the nearest value 
+    with Pandas. Designed for quick data filtering.
+'''
 
 import pandas as pd
 

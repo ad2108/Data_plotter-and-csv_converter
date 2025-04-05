@@ -1,4 +1,14 @@
-# file sorter
+'''
+Dataplotter 3dat
+Author: ad2108
+Version: 1.0
+Date: 2025-04-05
+License: MIT
+
+Description:
+    A simple script that plots out of datafiles using Matplotlib
+'''
+
 import matplotlib.pyplot as plt
 
 print("Abaqus txt plotter")

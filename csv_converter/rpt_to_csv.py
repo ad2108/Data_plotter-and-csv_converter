@@ -1,6 +1,15 @@
-# to csv rewriter
+'''
+Abaqus rpt to csv converter
+Author: ad2108
+Version: 1.0
+Date: 2025-04-05
+License: MIT
 
-print("Csv rewriter:")
+Description:
+    A simple script that converts the native rpt report files from Abaqus to csv.
+'''
+
+print("Csv converter:")
 print("To exit type exit")
 
 while True:

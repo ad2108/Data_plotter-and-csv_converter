@@ -1,14 +1,4 @@
-'''
-Clipboard Datafilter
-Author: ad2108
-Version: 1.0
-Date: 2025-04-05
-License: MIT
-
-Description:
-    A simple script that reads data from the clipboard and finds the nearest value 
-    with Pandas. Designed for quick data filtering.
-'''
+#Datasorter
 
 import pandas as pd
 
@@ -42,4 +32,4 @@ for i in dataset:
   dat = dat._append(new_row, ignore_index=True)
 
 #paste data to clipboard
-dat.to_clipboard()
+dat.to_clipboard(index=False)
